@@ -42,7 +42,7 @@ public class YatzyScores {
         List<Integer> pairs = roll.findPairs();
         if (pairs.isEmpty()) {
             return 0;
-        }  else {
+        } else {
             return pairs.get(0) * 2;
         }
     }
